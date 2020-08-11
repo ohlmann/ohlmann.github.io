@@ -45,10 +45,13 @@ author:
       url: "https://gitlab.com/sohlmann"
 
 # Build settings
+markdown: kramdown
 #theme: minima
-theme: minimal-mistakes-jekyll
+#theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.20.1"
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
 
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
