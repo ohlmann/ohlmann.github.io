@@ -13,8 +13,8 @@ This algorithms splits stencil applications in a forward and a backward
 part and reuses the points that are loaded into cache for both parts at
 once:
 ```
-x_i   += a_0  x_i + a_1  x_i+1 + a_2 x_i+2            (forward)
-x_i+2 += a_-2 x_i + a_-1 x_i+1                        (backward)
+x_i   += a_0  x_i + a_1  x_i+1 + a_2 x_i+2    (forward)
+x_i+2 += a_-2 x_i + a_-1 x_i+1                (backward)
 ```
 
 This turns out to be beneficial especially for larger stencils (> 25
