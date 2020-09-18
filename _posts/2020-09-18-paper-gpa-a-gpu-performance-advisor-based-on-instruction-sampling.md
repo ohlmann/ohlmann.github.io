@@ -2,7 +2,7 @@
 layout: single
 title: "Paper: GPA: A GPU Performance Advisor Based on Instruction Sampling"
 date: 2020-09-18
-tags: 
+tags: paper, gpu
 ---
 
 I recently came across [this paper](https://arxiv.org/abs/2009.04061) describing
