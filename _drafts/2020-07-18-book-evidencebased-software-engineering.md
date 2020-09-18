@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Book: Evidence-based Software Engineering"
-date: 2020-07-18
+date: 2020-08-12
 tags: book
 ---
 - interesting book by Derek M. Jones
